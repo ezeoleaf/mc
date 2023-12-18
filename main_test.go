@@ -69,6 +69,10 @@ func TestIsValidChunk(t *testing.T) {
 			input:  "(<{()}{}{}><<>{[]}>[<<>><{}>{}>[]<>][]{}[])",
 			output: 30,
 		},
+		{
+			input:  "(aba(c!?)aba)",
+			output: -1,
+		},
 	}
 
 	for _, c := range cases {
