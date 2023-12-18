@@ -1,4 +1,4 @@
-# mc
+# MC
 MC
 
 ## Validation of chunks
